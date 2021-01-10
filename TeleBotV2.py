@@ -34,6 +34,3 @@ def command_default(search):
         bot.send_message(search.chat.id , f"Sorry, we could not understand your search, it may refer to these following topics:")
         FiveOptions(e,search)
 bot.polling()
-    
-
-bot.polling()
