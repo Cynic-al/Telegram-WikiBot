@@ -2,7 +2,7 @@ import time
 import telebot
 import wikipedia
 
-TOKEN = "1503600288:AAE8ACAjd1uGlQCwcUbpdH-gjjBTLw-w0g8"
+TOKEN = "your token goes here"
 bot = telebot.TeleBot(token=TOKEN)
 
 def FiveOptions(e, search):
